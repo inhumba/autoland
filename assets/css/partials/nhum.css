@@ -1,3 +1,84 @@
 body {
-	background-color: #f00;
+	background-color: #FFF;
 }
+
+.navbar-default {
+	background-color: #FFF;
+	border: none;
+	padding: 35px 60px;
+}
+
+.logo {
+	background: url(../../../assets/img/logo.png) no-repeat center center;
+	height: 47px;
+	width: 198px;
+	text-indent: -9999px;
+}
+.logo.logo-bw {
+	background: url(../../../assets/img/logo-bw.png) no-repeat center center;
+}
+.logo > a {
+	display: block;
+	height: 47px;
+	width: 198px;
+}
+
+.logo-footer {
+	margin: 50px auto 10px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #000;
+	font-family: custom-medium;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+	text-decoration: underline;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background-color: #FFF;
+	color: #D40000;
+}
+
+
+
+
+.footer {
+	background-color: #1F1F1F;
+	padding: 60px 0 40px;
+}
+
+.foot-nav > ul {
+	list-style-type: none;
+	text-align: center;
+}
+.foot-nav > ul > li {
+	display: inline;
+}
+.foot-nav > ul > li > a {
+	color: #FFF;
+	font-family: custom-medium;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 5px 60px;
+	text-transform: uppercase;
+}
+.foot-nav > ul > li > a:hover {
+	text-decoration: underline;
+}
+
+.social {
+	float: right;
+}
+.social a {
+	color: #FFF;
+	font-size: 18px;
+}
+
+
+
+
+
