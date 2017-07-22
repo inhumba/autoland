@@ -5,7 +5,24 @@ body {
 .navbar-default {
 	background-color: #FFF;
 	border: none;
-	padding: 35px 60px;
+}
+
+.navbar-header {
+	padding: 30px;
+}
+
+.navbar-toggle {
+	border: none;
+	margin: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000;
+	height: 4px;
+	width: 30px;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #FFF;
 }
 
 .logo {
@@ -53,6 +70,7 @@ body {
 
 .foot-nav > ul {
 	list-style-type: none;
+	padding: 0;
 	text-align: center;
 }
 .foot-nav > ul > li {
@@ -78,7 +96,36 @@ body {
 	font-size: 18px;
 }
 
+@media only screen and (max-width: 768px) {
 
+	.foot-nav > ul > li > a {
+		padding: 5px 10px;
+	}
+
+	.social {
+		float: none;
+		font-size: 20px;
+		margin: 20px auto 0;
+		text-align: center;
+	}
+
+	.logo-footer {
+		margin: 30px auto 10px;
+	}
+
+}
+
+@media only screen and (min-width: 767px) {
+
+	.navbar-default {
+		padding: 35px 60px;
+	}
+
+	.navbar-header {
+		padding: 0;
+	}
+
+}
 
 
 
